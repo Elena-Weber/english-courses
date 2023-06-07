@@ -1,4 +1,4 @@
-import ElementaryImages from "./images/ElementaryImages";
+import ElementaryImages from "./ElementaryImages";
 
 const Elementary = () => {
   return (
