@@ -1,5 +1,5 @@
-import ElementaryImages from "./ElementaryImages";
-import ElementaryIntro from "./ElementaryIntro";
+import ElementaryImages from "./elementary/ElementaryImages";
+import ElementaryIntro from "./elementary/ElementaryIntro";
 
 const Elementary = () => {
   return (

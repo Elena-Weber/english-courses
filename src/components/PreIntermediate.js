@@ -1,5 +1,5 @@
-import PreIntermediateImages from "./PreIntermediateImages";
-import PreIntermediateIntro from "./PreIntermediateIntro";
+import PreIntermediateImages from "./pre-intermediate/PreIntermediateImages";
+import PreIntermediateIntro from "./pre-intermediate/PreIntermediateIntro";
 
 const PreIntermediate = () => {
   return (

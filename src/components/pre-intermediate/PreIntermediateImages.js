@@ -1,13 +1,13 @@
-import IMG_2935 from '../images/pre-intermediate/IMG_2935.jpg';
-import IMG_2936 from '../images/pre-intermediate/IMG_2936.jpg';
-import IMG_2937 from '../images/pre-intermediate/IMG_2937.jpg';
-import IMG_2938 from '../images/pre-intermediate/IMG_2938.jpg';
-import IMG_2939 from '../images/pre-intermediate/IMG_2939.jpg';
-import IMG_2940 from '../images/pre-intermediate/IMG_2940.jpg';
-import IMG_2941 from '../images/pre-intermediate/IMG_2941.jpg';
-import IMG_2942 from '../images/pre-intermediate/IMG_2942.jpg';
-import IMG_2943 from '../images/pre-intermediate/IMG_2943.jpg';
-import IMG_2944 from '../images/pre-intermediate/IMG_2944.jpg';
+import IMG_2935 from '../../images/pre-intermediate/IMG_2935.jpg';
+import IMG_2936 from '../../images/pre-intermediate/IMG_2936.jpg';
+import IMG_2937 from '../../images/pre-intermediate/IMG_2937.jpg';
+import IMG_2938 from '../../images/pre-intermediate/IMG_2938.jpg';
+import IMG_2939 from '../../images/pre-intermediate/IMG_2939.jpg';
+import IMG_2940 from '../../images/pre-intermediate/IMG_2940.jpg';
+import IMG_2941 from '../../images/pre-intermediate/IMG_2941.jpg';
+import IMG_2942 from '../../images/pre-intermediate/IMG_2942.jpg';
+import IMG_2943 from '../../images/pre-intermediate/IMG_2943.jpg';
+import IMG_2944 from '../../images/pre-intermediate/IMG_2944.jpg';
 
 const PreIntermediateImages = () => {
   return (
