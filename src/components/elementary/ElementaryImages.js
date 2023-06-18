@@ -1,3 +1,4 @@
+import Carousel from 'react-bootstrap/Carousel';
 import IMG_2922 from '../../images/elementary/IMG_2922.jpg';
 import IMG_2925 from '../../images/elementary/IMG_2925.jpg';
 import IMG_2926 from '../../images/elementary/IMG_2926.jpg';
@@ -11,20 +12,22 @@ import IMG_2945 from '../../images/elementary/IMG_2945.jpg';
 import IMG_2946 from '../../images/elementary/IMG_2946.jpg';
 
 const ElementaryImages = () => {
+  const reviews = [IMG_2922, IMG_2925, IMG_2926, IMG_2927, IMG_2929, IMG_2931, IMG_2932, IMG_2933, IMG_2934, IMG_2945, IMG_2946];
+
   return (
     <div className='text-center'>
       <h4>Отзывы от тех, кто уже прошёл данный курс:</h4>
-      <img src={IMG_2922} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2925} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2926} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2927} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2929} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2931} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2932} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2933} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2934} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2945} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
-      <img src={IMG_2946} alt="elem1" style={{maxWidth: "100%"}} className="my-2" />
+      <Carousel>
+        {reviews.map(image => {
+          return <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={image}
+              alt={image}
+            />
+          </Carousel.Item>
+        })}
+      </Carousel>
     </div>
   )
 }
