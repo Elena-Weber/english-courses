@@ -3,7 +3,7 @@ import ElementaryIntro from "./elementary/ElementaryIntro";
 
 const Elementary = () => {
   return (
-    <div className="d-flex flex-column align-items-center text-center">
+    <div className="d-flex flex-column text-center align-items-right">
       <h1>English for Newbies</h1>
       <h2>Английский для новичков</h2>
       <h3>Уровень: A1 (Elementary)</h3>
@@ -27,7 +27,7 @@ const Elementary = () => {
             <li>НАПИШЕТЕ несколько рассказов, ПРОСЛУШАЕТЕ множество аудиозаписей и САМИ НАЧНЁТЕ ГОВОРИТЬ (на английском, конечно же)</li>
             <li>И это - далеко не всё!</li>
           </div>
-          <div className="row">
+          <div className="row justify-content-evenly">
             <div className="col-7 m-3 p-3">
               <ElementaryIntro />
             </div>

@@ -16,8 +16,8 @@ const ElementaryImages = () => {
 
   return (
     <div className='text-center'>
-      <h4>Отзывы от тех, кто уже прошёл данный курс:</h4>
-      <Carousel>
+      <h4 className='mb-3'>Отзывы от тех, кто уже прошёл данный курс:</h4>
+      <Carousel variant="dark">
         {reviews.map(image => {
           return <Carousel.Item>
             <img
