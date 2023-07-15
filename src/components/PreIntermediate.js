@@ -1,5 +1,6 @@
 import PreIntermediateImages from "./pre-intermediate/PreIntermediateImages";
 import PreIntermediateIntro from "./pre-intermediate/PreIntermediateIntro";
+import Payment from "./Payment";
 
 const PreIntermediate = () => {
   return (
@@ -25,6 +26,9 @@ const PreIntermediate = () => {
             <div className="col-4 m-3 p-3">
               <PreIntermediateImages/>
             </div>
+          </div>
+          <div>
+            <Payment />
           </div>
         </div>
       </div>

@@ -23,17 +23,17 @@ code {
   color: var(--dark);
 }
 
-.nav {
+.navi {
   background-color: var(--dark);
 }
 
-.nav-link {
+.navi-link {
   color: white;
   letter-spacing: 3px;
   position: relative;
 }
 
-.nav-link::before {
+.navi-link::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -47,11 +47,11 @@ code {
   transition: transform .3s ease-in-out;
 }
 
-.nav-link:hover::before {
+.navi-link:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-.nav-link:hover, .nav-link:visited {
+.navi-link:hover, .navi-link:visited {
   color: white;
 }

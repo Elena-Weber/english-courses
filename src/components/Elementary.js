@@ -1,5 +1,6 @@
 import ElementaryImages from "./elementary/ElementaryImages";
 import ElementaryIntro from "./elementary/ElementaryIntro";
+import Payment from "./Payment";
 
 const Elementary = () => {
   return (
@@ -34,6 +35,9 @@ const Elementary = () => {
             <div className="col-4 m-3 p-3">
               <ElementaryImages />
             </div>
+          </div>
+          <div>
+            <Payment />
           </div>
         </div>
       </div>

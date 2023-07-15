@@ -19,7 +19,7 @@ const ElementaryImages = () => {
       <h4 className='mb-3'>Отзывы от тех, кто уже прошёл данный курс:</h4>
       <Carousel variant="dark">
         {reviews.map(image => {
-          return <Carousel.Item>
+          return <Carousel.Item key={image}>
             <img
               className="d-block w-100"
               src={image}
