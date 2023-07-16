@@ -4,15 +4,14 @@ import ElementaryPayment from "./elementary/ElementaryPayment";
 
 const Elementary = () => {
   return (
-    <div className="d-flex flex-column text-center align-items-right">
-      <h1>English for Newbies</h1>
-      <h2>Английский для новичков</h2>
-      <h3>Уровень: A1 (Elementary)</h3>
-      <h4>
+    <div className="d-flex flex-column align-items-right">
+      <h2 className="heading text-center">English for Newbies ↔️ Английский для новичков</h2>
+      <h3 className="subheading text-center">Уровень: A1 (Elementary)</h3>
+      <h4 className="subsubheading text-center">
         Если вы совсем недавно начали изучать английский язык...<br />
-        Если в школе вы «учили инглиш, учили», но так ничего и не выучили...<br />
+        Если в школе вы учили инглиш, учили, но так ничего и не выучили...<br />
         Если вы не понимаете разницу между I eat и I am eating, teacher’s и teachers’, can и may...<br />
-        то курс English for Newbies - для вас!
+        то курс ENGLISH FOR NEWBIES - для вас!
       </h4>
       <div className="container">
         <div className="row">

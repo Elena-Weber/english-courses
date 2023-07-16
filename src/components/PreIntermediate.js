@@ -5,10 +5,9 @@ import PreIntermediatePayment from "./pre-intermediate/PreIntermediatePayment";
 const PreIntermediate = () => {
   return (
     <div className="d-flex flex-column align-items-center">
-      <h1>English for Amateurs</h1>
-      <h2>Английский для любителей</h2>
-      <h3>Уровень: A2 (Pre-Intermediate)</h3>
-      <h4>Данный курс является продолжением курса ENGLISH FOR NEWBIES (уровень - Elementary).</h4>
+      <h2 className="heading text-center">English for Amateurs ↔️ Английский для любителей</h2>
+      <h3 className="subheading text-center">Уровень: A2 (Pre-Intermediate)</h3>
+      <h4 className="subsubheading text-center">Данный курс является продолжением курса ENGLISH FOR NEWBIES (уровень - Elementary)</h4>
       <div className="container">
         <div className="row">
           <div className="col m-3 p-3">

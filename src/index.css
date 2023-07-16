@@ -20,30 +20,16 @@ a {
 
 .main-heading {
   color: var(--dark);
-}
-
-.navi {
-  background-color: var(--dark);
-}
-
-.navi-tabs {
-  color: var(--medium);
-  /* background-color: var(--light); */
-}
-
-.navi-link {
-  color: white;
-  letter-spacing: 3px;
   position: relative;
 }
 
-.navi-link::before {
+.main-heading::before {
   content: '';
   position: absolute;
   width: 100%;
   height: 3px;
   border-radius: 3px;
-  background-color: var(--yellowish);
+  background-color: var(--light);
   bottom: 0;
   left: 0;
   transform-origin: right;
@@ -51,13 +37,33 @@ a {
   transition: transform .3s ease-in-out;
 }
 
-.navi-link:hover::before {
+.main-heading:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
 
-.navi-link:hover, .navi-link:visited {
+.navi-tabs {
+  color: var(--medium);
+}
+
+.heading {
+  background-color: var(--dark);
   color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.subheading {
+  background-color: var(--medium);
+  color: white;
+  width: 100%;
+  padding: 8px;
+}
+
+.subsubheading {
+  background-color: var(--light);
+  width: 100%;
+  padding: 6px;
 }
 
 .button {
