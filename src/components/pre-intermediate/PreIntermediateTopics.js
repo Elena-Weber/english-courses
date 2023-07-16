@@ -49,7 +49,7 @@ function PreIntermediateTopics() {
             <ListGroup.Item as="li">О себе</ListGroup.Item>
             <ListGroup.Item as="li">Внешность</ListGroup.Item>
             <ListGroup.Item as="li">Семья</ListGroup.Item>
-            <ListGroup.Item as="li">Черты характеры</ListGroup.Item>
+            <ListGroup.Item as="li">Черты характера</ListGroup.Item>
             <ListGroup.Item as="li">Окружающий мир</ListGroup.Item>
             <ListGroup.Item as="li">Отель, ресторан, аэропорт, транспорт, туризм</ListGroup.Item>
             <ListGroup.Item as="li">Приготовление еды</ListGroup.Item>

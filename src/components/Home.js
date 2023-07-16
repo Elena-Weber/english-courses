@@ -9,7 +9,7 @@ const Home = () => {
           </div>
           <div className='col-9'>
             <h2 className="heading">Привет!</h2>
-            <h3 className="subheading">Меня зовут Елена, и я опытный, дипломированный и сертифицированный English Teacher</h3>
+            <h3 className="subheading">Меня зовут Елена, и я опытный дипломированный и сертифицированный English Teacher</h3>
             <h4 className="subsubheading">У меня за спиной:</h4>
             <li>5 лет учёбы в ВУЗе на учителя английского и немецкого языков (окончила с отличием)</li>
             <li>4 года преподавания English в ВУЗе (и повышение до старшего преподавателя)</li>

@@ -7,7 +7,7 @@ function ElementaryIntro() {
     <Accordion flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>
-          <h5>Кому подойдёт данный курс?</h5>
+          <h5>Кому подойдёт курс English for Amateurs?</h5>
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
@@ -35,7 +35,7 @@ function ElementaryIntro() {
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>
-          <h5>Что будет на этом курсе?</h5>
+          <h5>Что вы будете делать на этом курсе?</h5>
         </Accordion.Header>
         <Accordion.Body>
           <PreIntermediateTopics/>

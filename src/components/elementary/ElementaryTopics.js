@@ -22,7 +22,7 @@ function ElementaryTopics() {
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
             <ListGroup.Item as="li">Местоимения</ListGroup.Item>
-            <ListGroup.Item as="li">Правильные и неправильные глаголы (3 времени)</ListGroup.Item>
+            <ListGroup.Item as="li">Правильные и неправильные глаголы (4 времени)</ListGroup.Item>
             <ListGroup.Item as="li">Порядок слов в предложении</ListGroup.Item>
             <ListGroup.Item as="li">Отрицание и вопросы</ListGroup.Item>
             <ListGroup.Item as="li">Исчисляемость и числительные</ListGroup.Item>
