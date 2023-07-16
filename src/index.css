@@ -26,6 +26,11 @@ a {
   background-color: var(--dark);
 }
 
+.navi-tabs {
+  color: var(--medium);
+  /* background-color: var(--light); */
+}
+
 .navi-link {
   color: white;
   letter-spacing: 3px;

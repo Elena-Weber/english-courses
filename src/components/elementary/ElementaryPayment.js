@@ -13,7 +13,7 @@ const ElementaryPayment = () => {
             <Card.Text>
               Много полезного!
             </Card.Text>
-            <Tabs defaultActiveKey="card" id="uncontrolled-tab-example" className="my-4" fill>
+            <Tabs defaultActiveKey="card" id="elementary-payment-tab-1" className="my-4" justify>
               <Tab eventKey="card" title="Картой">
                 <a className="button" href="https://buy.stripe.com/dR6bJV7bC9mO44U5kk" role="button" target="_blank">Ссылка на оплату</a>
               </Tab>
@@ -39,7 +39,7 @@ const ElementaryPayment = () => {
             <Card.Text>
               Много полезного!
             </Card.Text>
-            <Tabs defaultActiveKey="card" id="uncontrolled-tab-example" className="my-4" fill>
+            <Tabs defaultActiveKey="card" id="elementary-payment-tab-2" className="my-4" justify>
               <Tab eventKey="card" title="Картой">
                 <a className="button" href="https://buy.stripe.com/dR6bJV7bC9mO44U5kk" role="button" target="_blank">Ссылка на оплату</a>
               </Tab>
