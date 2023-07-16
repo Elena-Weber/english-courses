@@ -14,9 +14,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: var(--medium);
 }
 
 .main-heading {
@@ -54,4 +53,22 @@ code {
 
 .navi-link:hover, .navi-link:visited {
   color: white;
+}
+
+.button {
+  background-color: var(--dark);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--light);
+  color: var(--dark);
+  box-shadow: 0 5px 5px 0 var(--dark);
+}
+
+.payment-card {
+  width: 48%;
 }
