@@ -5,9 +5,9 @@ import PreIntermediatePayment from "./pre-intermediate/PreIntermediatePayment";
 const PreIntermediate = () => {
   return (
     <div className="d-flex flex-column align-items-center">
-      <h2 className="heading text-center">English for Amateurs ↔️ Английский для любителей</h2>
+      <h2 className="heading px-3 text-center">English for Amateurs ↔️ Английский для любителей</h2>
       <h3 className="subheading text-center">Уровень: A2 (Pre-Intermediate)</h3>
-      <h4 className="subsubheading text-center">Данный курс является продолжением курса ENGLISH FOR NEWBIES (уровень - Elementary)</h4>
+      <h4 className="subsubheading px-3 text-center">Данный курс является продолжением курса ENGLISH FOR NEWBIES (уровень - Elementary)</h4>
       <div className="container">
         <div className="row">
           <div className="col m-3 p-3">
@@ -21,10 +21,12 @@ const PreIntermediate = () => {
             <li>Будете ОПИСЫВАТЬ людей и фото, ПЕРЕВОДИТЬ рецепты, ПИСАТЬ письма, ЧИТАТЬ рассказы, СМОТРЕТЬ отрывки сериалов, СЛУШАТЬ аудиозаписи и ГОВОРИТЬ на разные темы (на английском, конечно же!)</li>
           </div>
           <div className="row justify-content-evenly">
-            <div className="col-7 m-3 p-3">
+            {/* before LARGE it's 9 columns, starting with LARGE it's 7 columns */}
+            <div className="col-9 col-lg-7 m-3 p-3">
               <PreIntermediateIntro />
             </div>
-            <div className="col-4 m-3 p-3">
+            {/* before LARGE it's 9 columns, starting with LARGE it's 4 columns */}
+            <div className="col-9 col-lg-4 m-3 p-3">
               <PreIntermediateImages/>
             </div>
           </div>

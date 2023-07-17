@@ -3,11 +3,13 @@ import avatar from '../images/avatar.JPG';
 const Home = () => {
     return (
       <div className='container'>
-        <div className='row my-4'>
-          <div className='col-3 d-flex justify-content-center align-items-center'>
+        <div className='row my-4 about'>
+          {/* before SMALL it's 5 columns, starting with SMALL it's 3 columns */}
+          <div className='col-5 col-sm-3 d-flex justify-content-center align-items-center avatar-div'>
             <img src={avatar} style={{width:'70%'}} className='text-center'/>
           </div>
-          <div className='col-9'>
+          {/* before SMALL it's 12 columns, starting with SMALL it's 9 columns */}
+          <div className='col-12 col-sm-9'>
             <h2 className="heading">Привет!</h2>
             <h3 className="subheading">Меня зовут Елена, и я опытный дипломированный и сертифицированный English Teacher</h3>
             <h4 className="subsubheading">У меня за спиной:</h4>
@@ -19,7 +21,7 @@ const Home = () => {
             <li>В Instagram я известна благодаря аккаунту с классными уроками по английскому языку @English.Witch.Elena (в настоящее время находится в архиве)</li>
           </div>
         </div>
-        <div className='row mb-3'>
+        <div className='row mb-3 mx-1'>
           <h4 className="subsubheading">Хоть я и волшебница английского языка, чудес не обещаю, но гарантирую, что под моим руководством вы:</h4>
           <li>разложите ГРАММАТИКУ по полочкам</li>
           <li>расширите СЛОВАРНЫЙ ЗАПАС</li>

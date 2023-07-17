@@ -5,9 +5,9 @@ import ElementaryPayment from "./elementary/ElementaryPayment";
 const Elementary = () => {
   return (
     <div className="d-flex flex-column align-items-right">
-      <h2 className="heading text-center">English for Newbies ↔️ Английский для новичков</h2>
+      <h2 className="heading px-3 text-center">English for Newbies ↔️ Английский для новичков</h2>
       <h3 className="subheading text-center">Уровень: A1 (Elementary)</h3>
-      <h4 className="subsubheading text-center">
+      <h4 className="subsubheading px-3 text-center">
         Если вы совсем недавно начали изучать английский язык...<br />
         Если в школе вы учили инглиш, учили, но так ничего и не выучили...<br />
         Если вы не понимаете разницу между I eat и I am eating, teacher’s и teachers’, can и may...<br />
@@ -28,10 +28,12 @@ const Elementary = () => {
             <br/><h5>И это - далеко не всё!</h5>
           </div>
           <div className="row justify-content-evenly">
-            <div className="col-7 m-3 p-3">
+            {/* before LARGE it's 9 columns, starting with LARGE it's 7 columns */}
+            <div className="col-9 col-lg-7 m-3 p-3">
               <ElementaryIntro />
             </div>
-            <div className="col-4 m-3 p-3">
+            {/* before LARGE it's 9 columns, starting with LARGE it's 4 columns */}
+            <div className="col-9 col-lg-4 m-3 p-3">
               <ElementaryImages />
             </div>
           </div>

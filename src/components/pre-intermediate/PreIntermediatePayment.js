@@ -6,7 +6,7 @@ const PreIntermediatePayment = () => {
   return (
     <div>
       <h2 className="subheading text-center animation">Оплатить курс English for Amateurs</h2>
-      <div className="d-flex justify-content-around mb-5 mt-3">
+      <div className="d-flex justify-content-around mb-5 mt-3 payment-div">
         <div className="payment-card">
           <Card className="text-center h-100">
             <Card.Header className="tariff">Тариф All by myself</Card.Header>

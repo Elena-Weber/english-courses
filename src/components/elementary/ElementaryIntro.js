@@ -35,7 +35,7 @@ function ElementaryIntro() {
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>
-          <h5>Что вы будете делать на этом курсе?</h5>
+          <h5>Что вас ждёт на этом курсе?</h5>
         </Accordion.Header>
         <Accordion.Body>
           <ElementaryTopics/>
