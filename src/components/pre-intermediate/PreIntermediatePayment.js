@@ -9,11 +9,19 @@ const PreIntermediatePayment = () => {
       <div className="d-flex justify-content-around mb-5 mt-3">
         <div className="payment-card">
           <Card className="text-center h-100">
-            <Card.Header>Тариф All by myself</Card.Header>
+            <Card.Header className="tariff">Тариф All by myself</Card.Header>
             <Card.Body>
-              <Card.Title>Что входит в курс:</Card.Title>
+              <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                Много полезного!
+                15 уроков, каждый из которых включает:
+                <li>ВИДЕО объяснения (на русском)</li>
+                <li>ПРЕЗЕНТАЦИИ (in English с переводом)</li>
+                <li>АУДИО для развития навыка аудирования (in English)</li>
+                <li>ТЕКСТЫ для чтения (in English)</li>
+                <li>Задания на ПИСЬМО (in English)</li>
+                <li>СПИСОК СЛОВ для запоминания (in English)</li>
+                <li>ТЕСТЫ на проверку понимания</li>
+                <li>ЧАТ с одногруппниками в Telegram</li>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="pre-intermediate-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
@@ -36,11 +44,22 @@ const PreIntermediatePayment = () => {
         </div>
         <div className="payment-card">
         <Card className="text-center h-100">
-            <Card.Header>Тариф Check me out</Card.Header>
+            <Card.Header className="tariff">Тариф Check me out</Card.Header>
             <Card.Body>
-              <Card.Title>Что входит в курс:</Card.Title>
+              <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                Много полезного!
+                15 уроков, каждый из которых включает:
+                <li>ВИДЕО объяснения (на русском)</li>
+                <li>ПРЕЗЕНТАЦИИ (in English с переводом)</li>
+                <li>АУДИО для развития навыка аудирования (in English)</li>
+                <li>ТЕКСТЫ для чтения (in English)</li>
+                <li>Задания на ПИСЬМО (in English)</li>
+                <li>СПИСОК СЛОВ для запоминания (in English)</li>
+                <li>ТЕСТЫ на проверку понимания</li>
+                <li>ЧАТ с одногруппниками в Telegram</li>
+                +
+                <li className='accent'>Еженедельные ВЕБИНАРЫ с Еленой (всего - 8)</li>
+                <li className='accent'>1-на-1 СОЗВОН с Еленой (2 раза в неделю, всего - 15)</li>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="pre-intermediate-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
@@ -58,7 +77,7 @@ const PreIntermediatePayment = () => {
                 </Tab>
               </Tabs>
             </Card.Body>
-            <Card.Footer className="text-muted mt-2">Для тех, кто любит учиться под контролем преподавателя</Card.Footer>
+            <Card.Footer className="text-muted mt-2">Для тех, кто хочет учиться под контролем преподавателя</Card.Footer>
           </Card>
         </div>
       </div>

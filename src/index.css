@@ -83,8 +83,19 @@ a {
   width: 48%;
 }
 
+.tariff {
+  text-transform: uppercase;
+  color: var(--dark);
+  font-weight: bold;
+}
+
 .email {
   color: var(--dark);
+  font-weight: bold;
+}
+
+.accent {
+  color: var(--medium);
   font-weight: bold;
 }
 
