@@ -1,6 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import ListGroup from 'react-bootstrap/ListGroup';
-import PreIntermediateTopics from './PreIntermediateTopics'
+import PreIntermediateTopics from './PreIntermediateTopics';
 
 function ElementaryIntro() {
   return (

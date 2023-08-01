@@ -2,6 +2,7 @@ import Heading from "./components/Heading";
 import Home from './components/Home';
 import Elementary from './components/Elementary';
 import PreIntermediate from './components/PreIntermediate';
+import Devs from './components/Devs';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -18,6 +19,9 @@ export default function App() {
       </Tab>
       <Tab eventKey="pre-intermediate" title="Pre-Intermediate">
         <PreIntermediate/>
+      </Tab>
+      <Tab eventKey="devs" title="English for Devs">
+        <Devs/>
       </Tab>
     </Tabs>
     </>
