@@ -5,7 +5,7 @@ const DevsImages = () => {
 
   return (
     <div className='text-center'>
-      <h4 className='mb-3'>Отзывы от тех, кто уже прошёл курс English for Devs:</h4>
+      <h4 className='mb-3'>Отзывы от тех, кто уже прошёл курс English for Techies:</h4>
       <Carousel variant="dark">
         {reviews.map(image => {
           return <Carousel.Item key={image}>

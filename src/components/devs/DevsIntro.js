@@ -7,7 +7,7 @@ function DevsIntro() {
     <Accordion flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>
-          <h5>Кому подойдёт курс English for Devs?</h5>
+          <h5>Кому подойдёт курс English for Techies?</h5>
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">

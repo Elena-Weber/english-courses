@@ -5,7 +5,7 @@ import Tabs from 'react-bootstrap/Tabs';
 const DevsPayment = () => {
   return (
     <div>
-      <h2 className="subheading text-center animation">Оплатить курс English for Devs</h2>
+      <h2 className="subheading text-center animation">Оплатить курс English for Techies</h2>
       <div className="d-flex justify-content-around mb-5 mt-3 payment-div">
         <div className="payment-card">
           <Card className="text-center h-100">

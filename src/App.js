@@ -20,7 +20,7 @@ export default function App() {
       <Tab eventKey="pre-intermediate" title="Pre-Intermediate">
         <PreIntermediate/>
       </Tab>
-      <Tab eventKey="devs" title="English for Devs">
+      <Tab eventKey="techies" title="Techies">
         <Devs/>
       </Tab>
     </Tabs>
