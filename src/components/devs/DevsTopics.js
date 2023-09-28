@@ -6,7 +6,7 @@ function DevsTopics() {
     <Accordion flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>
-          <h5>Темы</h5>
+          <h5>IT Basics</h5>
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
@@ -16,7 +16,7 @@ function DevsTopics() {
       </Accordion.Item>
       <Accordion.Item eventKey="1">
         <Accordion.Header>
-          <h5>Темы</h5>
+          <h5>Programming</h5>
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
@@ -26,7 +26,7 @@ function DevsTopics() {
       </Accordion.Item>
       <Accordion.Item eventKey="2">
         <Accordion.Header>
-          <h5>Темы</h5>
+          <h5>Work and Career</h5>
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
