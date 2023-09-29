@@ -10,7 +10,10 @@ function DevsTopics() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li">Under construction</ListGroup.Item>
+            <ListGroup.Item as="li">Как называется оборудование</ListGroup.Item>
+            <ListGroup.Item as="li">Что на нём можно делать</ListGroup.Item>
+            <ListGroup.Item as="li">Клавиши на клавиатуре</ListGroup.Item>
+            <ListGroup.Item as="li">Работа на компьютере</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -20,7 +23,13 @@ function DevsTopics() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li">Under construction</ListGroup.Item>
+            <ListGroup.Item as="li">Переменные</ListGroup.Item>
+            <ListGroup.Item as="li">Типы данных</ListGroup.Item>
+            <ListGroup.Item as="li">Порядок выполнения</ListGroup.Item>
+            <ListGroup.Item as="li">Форматы идентификаторов</ListGroup.Item>
+            <ListGroup.Item as="li">Функции</ListGroup.Item>
+            <ListGroup.Item as="li">Псевдокод и алгоритмы</ListGroup.Item>
+            <ListGroup.Item as="li">Баги и тестирование</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -30,7 +39,9 @@ function DevsTopics() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li">Under construction</ListGroup.Item>
+            <ListGroup.Item as="li">Планёрка</ListGroup.Item>
+            <ListGroup.Item as="li">Переписка</ListGroup.Item>
+            <ListGroup.Item as="li">Работа над задачами</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>

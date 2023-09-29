@@ -5,7 +5,7 @@ import Tabs from 'react-bootstrap/Tabs';
 const DevsPayment = () => {
   return (
     <div>
-      <h2 className="subheading text-center animation">Оплатить курс English for Techies</h2>
+      <h2 className="subheading text-center animation">Оплатить курс English for Techies (3-in-1)</h2>
       <div className="d-flex justify-content-around mb-5 mt-3 payment-div">
         <div className="payment-card">
           <Card className="text-center h-100">
@@ -13,7 +13,7 @@ const DevsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                17 уроков, каждый из которых включает:
+                3 модуля = 12 уроков, каждый из которых включает:
                 <li>Under construction</li>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
@@ -41,7 +41,7 @@ const DevsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                17 уроков, каждый из которых включает:
+                3 модуля = 12 уроков, каждый из которых включает:
                 <li>Under construction</li>
                 +
                 <li className='accent'>Under construction too</li>

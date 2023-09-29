@@ -136,3 +136,22 @@ a {
     margin-bottom: 15px;
   }
 }
+
+.shimmer {
+  background: linear-gradient(to right, var(--light) 0, var(--medium) 10%, var(--dark) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmering 3s infinite linear;
+}
+
+@keyframes shimmering {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 275px;
+  }
+  100% {
+    background-position: 550px;
+  }
+}
