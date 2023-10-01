@@ -25,12 +25,12 @@ const Devs = () => {
             <h4><a href="" target="_blank" className="shimmer">Приобрести модули по отдельности можно здесь</a></h4>
           </div>
           <div className="row justify-content-evenly">
-            {/* before LARGE it's 9 columns, starting with LARGE it's 7 columns */}
-            <div className="col-9 col-lg-7 m-3 p-3">
+            {/* before LARGE it's 11 columns, after LARGE it's 6 columns out of 12 */}
+            <div className="col-11 col-lg-6 m-3 p-3">
               <DevsIntro />
             </div>
-            {/* before LARGE it's 9 columns, starting with LARGE it's 4 columns */}
-            <div className="col-9 col-lg-4 m-3 p-3">
+            {/* before LARGE it's 11 columns, after LARGE it's 5 columns out of 12 */}
+            <div className="col-11 col-lg-5 m-3 p-3">
               {/* <DevsImages /> */}
             </div>
           </div>

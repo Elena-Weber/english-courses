@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
     <Heading/>
-    <Tabs defaultActiveKey="home" id="justify-tab" className="mb-3 fs-5 navi-tabs" justify>
+    <Tabs defaultActiveKey="home" id="justify-tab" className="mb-3 mx-3 fs-5 navi-tabs" justify>
       <Tab eventKey="home" title="Home">
         <Home/>
       </Tab>
