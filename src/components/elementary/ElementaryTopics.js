@@ -67,11 +67,17 @@ function ElementaryTopics() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
+            <ListGroup.Item as="li">О себе</ListGroup.Item>
+            <ListGroup.Item as="li">Числительные</ListGroup.Item>
+            <ListGroup.Item as="li">Описание внешности</ListGroup.Item>
+            <ListGroup.Item as="li">Описание помещения</ListGroup.Item>
+            <ListGroup.Item as="li">Описание города и страны</ListGroup.Item>
+            <ListGroup.Item as="li">В ресторане</ListGroup.Item>
+            <ListGroup.Item as="li">Распорядок дня</ListGroup.Item>
+            <ListGroup.Item as="li">Отпуск</ListGroup.Item>
+            <ListGroup.Item as="li">Шоппинг</ListGroup.Item>
+            <ListGroup.Item as="li">Разговор по телефону</ListGroup.Item>
+            <ListGroup.Item as="li">Small talk</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -81,11 +87,11 @@ function ElementaryTopics() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
+            <ListGroup.Item as="li">О себе</ListGroup.Item>
+            <ListGroup.Item as="li">Описание внешности</ListGroup.Item>
+            <ListGroup.Item as="li">Описание города</ListGroup.Item>
+            <ListGroup.Item as="li">Мой типичный день: вчера, сегодня: заавтра</ListGroup.Item>
+            <ListGroup.Item as="li">Ориентация на местности</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>

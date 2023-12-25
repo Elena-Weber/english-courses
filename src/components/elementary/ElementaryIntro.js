@@ -26,8 +26,8 @@ function ElementaryIntro() {
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
             <ListGroup.Item as="li">Тем, кто никогда не изучал English</ListGroup.Item>
-            <ListGroup.Item as="li">Тем, кто уже имеет знания по английскому выше базового уровня</ListGroup.Item>
-            <ListGroup.Item as="li">Тем, кто любит долгие разговоры ни о чём</ListGroup.Item>
+            <ListGroup.Item as="li">Тем, кто уже имеет знания по английскому выше базового уровня (A1)</ListGroup.Item>
+            <ListGroup.Item as="li">Тем, кто любит много "воды" и долгие разговоры ни о чём</ListGroup.Item>
             <ListGroup.Item as="li">Тем, кому нужно подтянуть лишь один аспект языка (произношение, грамматика, аудирование, лексика, разговор)</ListGroup.Item>
             <ListGroup.Item as="li">Тем, кто хочет комплексный результат за пару часов</ListGroup.Item>
           </ListGroup>

@@ -1,6 +1,6 @@
 import ElementaryImages from "./elementary/ElementaryImages";
 import ElementaryIntro from "./elementary/ElementaryIntro";
-import ElementaryPayment from "./elementary/ElementaryPayment";
+// import ElementaryPayment from "./elementary/ElementaryPayment";
 
 const Elementary = () => {
   return (
@@ -38,7 +38,7 @@ const Elementary = () => {
             </div>
           </div>
           <div>
-            <ElementaryPayment />
+            {/* <ElementaryPayment /> */}
           </div>
         </div>
       </div>

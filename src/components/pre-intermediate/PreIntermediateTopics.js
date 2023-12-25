@@ -68,11 +68,13 @@ function PreIntermediateTopics() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
-            <ListGroup.Item as="li"></ListGroup.Item>
+            <ListGroup.Item as="li">Описание внешности</ListGroup.Item>
+            <ListGroup.Item as="li">Знаки зодиака</ListGroup.Item>
+            <ListGroup.Item as="li">В ресторане</ListGroup.Item>
+            <ListGroup.Item as="li">В аэропорту</ListGroup.Item>
+            <ListGroup.Item as="li">Ориентация на местности</ListGroup.Item>
+            <ListGroup.Item as="li">Шоппинг</ListGroup.Item>
+            <ListGroup.Item as="li">У врача</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
