@@ -23,7 +23,7 @@ const ItBasicsPayment = () => {
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$100</span> <del>$120</del></h3>
                   <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
-                  <p>* Цена со скидкой действительна только до такого-то числа</p>
+                  <p>* Цена со скидкой действительна только до TBD</p>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
@@ -60,8 +60,8 @@ const ItBasicsPayment = () => {
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$125</span> <del>$150</del></h3>
-                  <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
-                  <p>* Цена со скидкой действительна только до такого-то числа</p>
+                  <h3><span className='text-danger'>₽125</span> <del>₽150</del></h3>
+                  <p>* Цена со скидкой действительна только до TBD</p>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
@@ -92,12 +92,12 @@ const ItBasicsPayment = () => {
                 Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$250</span> <del>$300</del></h3>
-                  <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
-                  <p>* Цена со скидкой действительна только до такого-то числа</p>
+                  <h3><span className='text-danger'>₽250</span> <del>₽300</del></h3>
+                  <p>* Цена со скидкой действительна только до TBD</p>
                 </div>
                 <hr></hr>
                 <div>
-                  <p>Созвоны будут проходить:<br></br>тогда-то<br></br>и<br></br>тогда-то</p>
+                  <p>Созвоны будут проходить:<br></br>TBD<br></br>и<br></br>TBD</p>
                   <p>Если любое время вам подходит, напишите мне в личку, чтобы уточнить наличие мест в этой группе и получить ссылку на оплату</p>
                 </div>
               </Card.Text>
