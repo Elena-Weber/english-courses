@@ -22,13 +22,13 @@ const ItBasicsPayment = () => {
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$100</span> <del>$120</del></h3>
-                  <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
+                  <h3><span className='text-danger'>₽9.200</span> <del>₽11.000</del></h3>
                   <p>* Цена со скидкой действительна только до TBD</p>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="" role="button" target="_blank">Оплата картой</a>
+                  <a className="button" href="https://buy.stripe.com/eVa15h7bC6aCbxmbIX" role="button" target="_blank">Оплата картой</a>
                   <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
@@ -60,13 +60,13 @@ const ItBasicsPayment = () => {
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$125</span> <del>$150</del></h3>
-                  <h3><span className='text-danger'>₽125</span> <del>₽150</del></h3>
+                  <h3><span className='text-danger'>₽11.500</span> <del>₽13.800</del></h3>
                   <p>* Цена со скидкой действительна только до TBD</p>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="" role="button" target="_blank">Оплата картой</a>
+                  <a className="button" href="https://buy.stripe.com/3cs8xJgMc1UmeJycN2" role="button" target="_blank">Оплата картой</a>
                   <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
@@ -92,7 +92,7 @@ const ItBasicsPayment = () => {
                 Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$250</span> <del>$300</del></h3>
-                  <h3><span className='text-danger'>₽250</span> <del>₽300</del></h3>
+                  <h3><span className='text-danger'>₽23.000</span> <del>₽27.600</del></h3>
                   <p>* Цена со скидкой действительна только до TBD</p>
                 </div>
                 <hr></hr>
