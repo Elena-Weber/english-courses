@@ -1,6 +1,6 @@
-import ProgrammersIntro from "./programmers/ProgrammersIntro";
+// import ProgrammersIntro from "./programmers/ProgrammersIntro";
 // import ProgrammersImages from "./programmers/ProgrammersImages";
-import ProgrammersPayment from "./programmers/ProgrammersPayment";
+// import ProgrammersPayment from "./programmers/ProgrammersPayment";
 
 const Programmers = () => {
   return (
@@ -15,13 +15,15 @@ const Programmers = () => {
           <div className="col m-3 p-3">
             <h5>К концу курса вы:</h5>
             <li>РАСШИРИТЕ словарный запас на тему программирования</li>
+            <li>УСВОИТЕ названия различных типов данных и прочего (in English)</li>
+            <li>НАУЧИТЕСЬ рассказывать, что происходит в вашем коде</li>
             <br></br>
-            <li><b><u>English for Programming</u></b> - если вы учились кодить на русском или любом другом языке, кроме английского, то этот курс - для вас! Здесь вы изучите всё самое актуальное: от названий различных типов данных до объяснения того, что происходит в вашем коде, in English</li>
+            <h6>Рекомендую этот модуль тем, кто учился программировать на русском или любом другом языке, кроме английского</h6>
           </div>
           <div className="row justify-content-evenly">
             {/* before LARGE it's 11 columns, after LARGE it's 6 columns out of 12 */}
             <div className="col-11 col-lg-6 m-3 p-3">
-              <ProgrammersIntro/>
+              {/* <ProgrammersIntro/> */}
             </div>
             {/* before LARGE it's 11 columns, after LARGE it's 5 columns out of 12 */}
             <div className="col-11 col-lg-5 m-3 p-3">
@@ -29,7 +31,7 @@ const Programmers = () => {
             </div>
           </div>
           <div>
-            <ProgrammersPayment/>
+            {/* <ProgrammersPayment/> */}
           </div>
         </div>
       </div>
