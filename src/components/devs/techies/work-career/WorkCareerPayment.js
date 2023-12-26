@@ -27,7 +27,7 @@ const WorkCareerPayment = () => {
                   <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="" role="button" target="_blank">YooMoney (Yandex)</a>
+                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
                   <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
                 </Tab>
               </Tabs>
@@ -57,7 +57,7 @@ const WorkCareerPayment = () => {
                   <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="" role="button" target="_blank">YooMoney (Yandex)</a>
+                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
                   <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
                 </Tab>
               </Tabs>

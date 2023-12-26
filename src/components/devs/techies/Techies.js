@@ -21,9 +21,6 @@ const Techies = () => {
             <li><b><u>Programming</u></b> - если вы учились кодить на русском или любом другом языке, кроме английского, то этот курс - для вас! Здесь вы изучите всё самое актуальное: от названий различных типов данных до объяснения того, что происходит в вашем коде, in English</li>
             <li><b><u>Work and Career</u></b> - если вы ищете работу и хотите освоить лексику, которая пригодится вам в будущей карьере, заранее, берите этот модуль. Тут вы освоите, что говорить на планёрке и как общаться с коллегами</li>
           </div>
-          <div className="text-center">
-            <h4><a href="" target="_blank" className="shimmer">Приобрести модули по отдельности можно здесь</a></h4>
-          </div>
           <div className="row justify-content-evenly">
             {/* before LARGE it's 11 columns, after LARGE it's 6 columns out of 12 */}
             <div className="col-11 col-lg-6 m-3 p-3">
@@ -33,9 +30,6 @@ const Techies = () => {
             <div className="col-11 col-lg-5 m-3 p-3">
               {/* <DevsImages /> */}
             </div>
-          </div>
-          <div className="text-center mb-5">
-            <h4><a href="" target="_blank" className="shimmer">Приобрести модули по отдельности можно здесь</a></h4>
           </div>
           <div>
             <DevsPayment />
