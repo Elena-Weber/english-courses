@@ -35,6 +35,9 @@ const PreIntermediate = () => {
           </div>
         </div>
       </div>
+      <h4 className="px-3 text-center text-danger">
+        Регистрация на данный курс, в данный момент, недоступна
+      </h4>
     </div>
   )
 }

@@ -18,6 +18,11 @@ const ItBasicsPayment = () => {
                 <li>Аудиозаписи для формирования правильного произношения новых слов (in English)</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
                 <li>Флэш-карточки для закрепления лексики в приложении Quizlet (in English)</li>
+                <div className='mt-3'>
+                  <h3><span className='text-danger'>$100</span> <del>$120</del></h3>
+                  <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
+                  <p>Цена со скидкой действительна только до такого-то числа</p>
+                </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
@@ -49,6 +54,11 @@ const ItBasicsPayment = () => {
                 <li>Аудиозаписи для формирования правильного произношения новых слов (in English)</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
                 <li>Флэш-карточки для закрепления лексики в приложении Quizlet (in English)</li>
+                <div className='mt-3'>
+                  <h3><span className='text-danger'>$125</span> <del>$150</del></h3>
+                  <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
+                  <p>Цена со скидкой действительна только до такого-то числа</p>
+                </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
@@ -76,6 +86,11 @@ const ItBasicsPayment = () => {
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
                 Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>7 созвонов</b> (1 раз в неделю по 60 минут)
+                <div className='mt-3'>
+                  <h3><span className='text-danger'>$250</span> <del>$300</del></h3>
+                  <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
+                  <p>Цена со скидкой действительна только до такого-то числа</p>
+                </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
