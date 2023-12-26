@@ -18,10 +18,12 @@ const ItBasicsPayment = () => {
                 <li>Аудиозаписи для формирования правильного произношения новых слов (in English)</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
                 <li>Флэш-карточки для закрепления лексики в приложении Quizlet (in English)</li>
+                <li>Тесты на проверку пройденного материала (in English)</li>
+                <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$100</span> <del>$120</del></h3>
                   <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
-                  <p>Цена со скидкой действительна только до такого-то числа</p>
+                  <p>* Цена со скидкой действительна только до такого-то числа</p>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
@@ -54,10 +56,12 @@ const ItBasicsPayment = () => {
                 <li>Аудиозаписи для формирования правильного произношения новых слов (in English)</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
                 <li>Флэш-карточки для закрепления лексики в приложении Quizlet (in English)</li>
+                <li>Тесты на проверку пройденного материала (in English)</li>
+                <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$125</span> <del>$150</del></h3>
                   <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
-                  <p>Цена со скидкой действительна только до такого-то числа</p>
+                  <p>* Цена со скидкой действительна только до такого-то числа</p>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
@@ -85,30 +89,20 @@ const ItBasicsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>7 созвонов</b> (1 раз в неделю по 60 минут)
+                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$250</span> <del>$300</del></h3>
                   <h3><span className='text-danger'>₽100</span> <del>₽120</del></h3>
-                  <p>Цена со скидкой действительна только до такого-то числа</p>
+                  <p>* Цена со скидкой действительна только до такого-то числа</p>
+                </div>
+                <hr></hr>
+                <div>
+                  <p>Созвоны будут проходить:<br></br>тогда-то<br></br>и<br></br>тогда-то</p>
+                  <p>Если любое время вам подходит, напишите мне в личку, чтобы уточнить наличие мест в этой группе и получить ссылку на оплату</p>
                 </div>
               </Card.Text>
-              <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
-                <Tab eventKey="card" title="Картой">
-                  <a className="button" href="" role="button" target="_blank">Оплата картой</a>
-                  <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
-                </Tab>
-                <Tab eventKey="zelle" title="Zelle">
-                  <h6 className='email'>ElenaAndEnglish@gmail.com</h6>
-                  <p className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</p>
-                  <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
-                </Tab>
-                <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
-                  <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
-                </Tab>
-              </Tabs>
             </Card.Body>
-            <Card.Footer className="text-muted mt-2">Для тех, кто хочет подтянуть говорение на темы: компьютер, интернет и email</Card.Footer>
+            <Card.Footer className="text-muted mt-2">Для тех, кто хочет подтянуть говорение по темам: компьютер, интернет, email</Card.Footer>
           </Card>
         </div>
       </div>
