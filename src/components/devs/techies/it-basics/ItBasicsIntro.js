@@ -21,7 +21,7 @@ function ItBasicsIntro() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
-            <ListGroup.Item as="li">Тем, у кого English на уровне ниже Pre-Intermediate (не знаете свой кровень? напишите мне в личку)</ListGroup.Item>
+            <ListGroup.Item as="li">Тем, у кого English на уровне ниже Pre-Intermediate (не знаете свой уровень? напишите мне в личку)</ListGroup.Item>
             <ListGroup.Item as="li">Тем, кому нужно подтянуть все аспекты языка (Внимание: акцент в курсе будет только на расширении словарного запаса)</ListGroup.Item>
             <ListGroup.Item as="li">Тем, кто уже владеет лексикой на компьютерную тему</ListGroup.Item>
           </ListGroup>
@@ -52,10 +52,10 @@ function ItBasicsIntro() {
           <ListGroup as="ul" variant="flush" className="text-start">
             <ListGroup.Item as="li">Курс длится 6 или 8 недель (зависит от тарифа)</ListGroup.Item>
             <ListGroup.Item as="li">Учёба проходит на сайте getcourse.ru (нестрашно, если у вас там пока нет аккаунта)</ListGroup.Item>
-            <ListGroup.Item as="li">Дважды в неделю вы будете получать новый урок, на выполнение которого у вас будет 3-4 дня</ListGroup.Item>
-            <ListGroup.Item as="li">На выполнение одного урока у вас будет уходить 2-4 часа</ListGroup.Item>
-            <ListGroup.Item as="li">Вы также будете добавлены в чат в Телеграм, где можно будет задавать вопросы и общатьс со мной и единомышленниками</ListGroup.Item>
-            <ListGroup.Item as="li">Если выбранный вами тариф включает еженедельные созвоны, раз в неделю мы будем с вами встречаться и обсуждать пройденный материал (in English)</ListGroup.Item>
+            <ListGroup.Item as="li">Дважды в неделю (по понедельникам и четвергам) вы будете получать новый урок, на выполнение которого у вас будет 3-4 дня</ListGroup.Item>
+            <ListGroup.Item as="li">На выполнение каждого такого урока у вас будет уходить 2-4 часа</ListGroup.Item>
+            <ListGroup.Item as="li">Вы также будете добавлены в чат в Телеграм, где можно будет задавать вопросы и общаться со мной и единомышленниками</ListGroup.Item>
+            <ListGroup.Item as="li">Если выбранный вами тариф включает еженедельные созвоны, раз в неделю (по воскресеньям) мы будем с вами встречаться в Zoom и обсуждать пройденный материал (in English)</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>

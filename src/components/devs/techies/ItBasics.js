@@ -12,6 +12,9 @@ const ItBasics = () => {
       </h4>
       <div className="container">
         <div className="row">
+          <div className='text-danger text-center mt-2'>
+            <h4>Начало занятий - 29.01.2024</h4>
+          </div>
           <div className="col m-3 p-3">
             <h5>К концу курса вы:</h5>
             <li>ПОЙМЁТЕ, как работает компьютер, интернет и email, и из каких основных компонентов они состоят</li>

@@ -9,38 +9,38 @@ const ItBasicsPayment = () => {
       <div className="d-flex justify-content-around mb-5 mt-3 payment-div">
         <div className="payment-card">
           <Card className="text-center h-100">
-            <Card.Header className="tariff">Тариф "Computer"</Card.Header>
+            <Card.Header className="tariff">Тариф "Computer Basic"</Card.Header>
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
                 <b>11 уроков</b> про <b>компьютер</b>, его компоненты и работу на нём, каждый из которых включает:<br></br><br></br>
                 <li>Видео уроки с объяснениями (на русском языке)</li>
                 <li>Презентации в PDF (на английском и русском)</li>
-                <li>Аудиозаписи для формирования правильного произношения новых слов (in English)</li>
+                <li>Аудиозаписи для формирования правильного произношения новых слов</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
-                <li>Флэш-карточки для закрепления лексики в приложении Quizlet (in English)</li>
+                <li>Флэш-карточки для закрепления лексики в приложении Quizlet</li>
                 <li>Файлы с флэш-карточками для распечатывания (для тех, кто любит всё на бумаге - это вместо использования Quizlet)</li>
-                <li>Тесты на проверку пройденного материала (in English)</li>
+                <li>Тесты на проверку пройденного материала</li>
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$100</span> <del>$120</del></h3>
-                  <h3><span className='text-danger'>₽9.200</span> <del>₽11.000</del></h3>
-                  <p>* Цена со скидкой действительна только до TBD</p>
+                  <h3><span className='text-danger'>₽8.800</span> <del>₽10.560</del></h3>
+                  <h6>* Цена со скидкой действительна только до 21 января 2024</h6>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="https://buy.stripe.com/eVa15h7bC6aCbxmbIX" role="button" target="_blank">Оплата картой</a>
-                  <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
+                  <a className="button" href="https://buy.stripe.com/eVa15h7bC6aCbxmbIX" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
+                  <h6 className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='email'>ElenaAndEnglish@gmail.com</h6>
-                  <p className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</p>
-                  <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
+                  <h6 className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</h6>
+                  <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
-                  <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
+                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
+                  <h6 className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</h6>
                 </Tab>
               </Tabs>
             </Card.Body>
@@ -53,34 +53,34 @@ const ItBasicsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-              Всё, что включает тариф "COMPUTER"<br></br>+<br></br><b>3 урока</b> про <b>интернет и email</b><br></br><br></br>Итого: <b>14 уроков</b>, каждый из которых включает:<br></br><br></br>
+              Всё, что включает тариф "COMPUTER BASIC"<br></br>+<br></br><b>3 урока</b> про <b>интернет и email</b><br></br><br></br>Итого: <b>14 уроков</b>, каждый из которых включает:<br></br><br></br>
                 <li>Видеоуроки с объяснениями (на русском языке)</li>
                 <li>Презентации в PDF (на английском и русском)</li>
-                <li>Аудиозаписи для формирования правильного произношения новых слов (in English)</li>
+                <li>Аудиозаписи для формирования правильного произношения новых слов</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
-                <li>Флэш-карточки для закрепления лексики в приложении Quizlet (in English)</li>
+                <li>Флэш-карточки для закрепления лексики в приложении Quizlet</li>
                 <li>Файлы с флэш-карточками для распечатывания (для тех, кто любит всё на бумаге - это вместо использования Quizlet)</li>
-                <li>Тесты на проверку пройденного материала (in English)</li>
+                <li>Тесты на проверку пройденного материала</li>
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$125</span> <del>$150</del></h3>
-                  <h3><span className='text-danger'>₽11.500</span> <del>₽13.800</del></h3>
-                  <p>* Цена со скидкой действительна только до TBD</p>
+                  <h3><span className='text-danger'>₽11.000</span> <del>₽13.200</del></h3>
+                  <h6>* Цена со скидкой действительна только до 21 января 2024</h6>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="https://buy.stripe.com/3cs8xJgMc1UmeJycN2" role="button" target="_blank">Оплата картой</a>
-                  <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
+                  <a className="button" href="https://buy.stripe.com/3cs8xJgMc1UmeJycN2" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
+                  <h6 className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='email'>ElenaAndEnglish@gmail.com</h6>
-                  <p className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</p>
-                  <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
+                  <h6 className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</h6>
+                  <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
-                  <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
+                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
+                  <h6 className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</h6>
                 </Tab>
               </Tabs>
             </Card.Body>
@@ -93,16 +93,18 @@ const ItBasicsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
+                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom по воскресеньям</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$250</span> <del>$300</del></h3>
-                  <h3><span className='text-danger'>₽23.000</span> <del>₽27.600</del></h3>
-                  <p>* Цена со скидкой действительна только до TBD</p>
+                  <h3><span className='text-danger'>₽22.000</span> <del>₽26.400</del></h3>
+                  <h6>* Цена со скидкой действительна только до 21 января 2024</h6>
                 </div>
                 <hr></hr>
                 <div>
-                  <p>Созвоны будут проходить:<br></br>TBD<br></br>и<br></br>TBD</p>
-                  <p>Если любое время вам подходит, напишите мне в личку, чтобы уточнить наличие мест в этой группе и получить ссылку на оплату</p>
+                  <h6><b>Созвоны будут проходить:</b></h6>
+                  <h6>воскресенье, 11 утра по НЙ<br></br>(7 часов вечера по Москве)<br></br>или<br></br>воскресенье, 6 вечера по НЙ<br></br>(3 часа утра по Москве)</h6>
+                  <hr></hr>
+                  <h6>Если любое время вам подходит, напишите мне в личку или на имейл <span className='email'>ElenaAndEnglish@gmail.com</span>, чтобы уточнить наличие мест в этой группе и получить ссылку на оплату</h6>
                 </div>
               </Card.Text>
             </Card.Body>

@@ -18,16 +18,16 @@ const ProgrammersPayment = () => {
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="" role="button" target="_blank">Оплата картой</a>
+                  <a className="button" href="" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
                   <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='email'>ElenaAndEnglish@gmail.com</h6>
                   <p className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</p>
-                  <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
+                  <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
+                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
                   <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
                 </Tab>
               </Tabs>
@@ -48,16 +48,16 @@ const ProgrammersPayment = () => {
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="" role="button" target="_blank">Оплата картой</a>
+                  <a className="button" href="" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
                   <p className="text-danger m-3">Доступ к курсу будет выслан на <u>имейл</u>, указанный при оплате</p>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='email'>ElenaAndEnglish@gmail.com</h6>
                   <p className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</p>
-                  <a href="https://www.zellepay.com/" target="_blank">Как оплатить через Zelle</a>
+                  <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank">YooMoney (Yandex)</a>
+                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
                   <p className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</p>
                 </Tab>
               </Tabs>
