@@ -39,7 +39,7 @@ const ItBasicsPayment = () => {
                   <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
+                  <a className="button" href="https://yoomoney.ru/to/41001255039281" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
                   <h6 className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</h6>
                 </Tab>
               </Tabs>
@@ -79,7 +79,7 @@ const ItBasicsPayment = () => {
                   <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
                 <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/410015981611019" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
+                  <a className="button" href="https://yoomoney.ru/to/41001255039281" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
                   <h6 className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</h6>
                 </Tab>
               </Tabs>
