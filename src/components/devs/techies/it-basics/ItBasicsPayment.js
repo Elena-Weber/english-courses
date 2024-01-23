@@ -23,9 +23,8 @@ const ItBasicsPayment = () => {
                 <li>Тесты на проверку пройденного материала</li>
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
-                  <h3><span className='text-danger'>$100</span> <del>$120</del></h3>
-                  <h3><span className='text-danger'>₽8.800</span> <del>₽10.560</del></h3>
-                  <h6>* Цена со скидкой действительна только до 21 января 2024</h6>
+                  <h3><span className='text-danger'>$120</span></h3>
+                  <h3><span className='text-danger'>₽10.560</span></h3>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-1" className="my-4" justify>
@@ -63,9 +62,8 @@ const ItBasicsPayment = () => {
                 <li>Тесты на проверку пройденного материала</li>
                 <li>Доступ к чату со мной и одногруппниками в Telegram</li>
                 <div className='mt-3'>
-                  <h3><span className='text-danger'>$125</span> <del>$150</del></h3>
-                  <h3><span className='text-danger'>₽11.000</span> <del>₽13.200</del></h3>
-                  <h6>* Цена со скидкой действительна только до 21 января 2024</h6>
+                  <h3><span className='text-danger'>$150</span></h3>
+                  <h3><span className='text-danger'>₽13.200</span></h3>
                 </div>
               </Card.Text>
               <Tabs defaultActiveKey="card" id="devs-payment-tab-2" className="my-4" justify>
@@ -95,9 +93,8 @@ const ItBasicsPayment = () => {
               <Card.Text>
                 Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom по воскресеньям</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
-                  <h3><span className='text-danger'>$250</span> <del>$300</del></h3>
-                  <h3><span className='text-danger'>₽22.000</span> <del>₽26.400</del></h3>
-                  <h6>* Цена со скидкой действительна только до 21 января 2024</h6>
+                  <h3><span className='text-danger'>$300</span></h3>
+                  <h3><span className='text-danger'>₽26.400</span></h3>
                 </div>
                 <hr></hr>
                 <div>
