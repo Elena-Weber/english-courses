@@ -12,6 +12,9 @@ const WorkCareer = () => {
       </h4>
       <div className="container">
         <div className="row">
+          <h4 className="px-3 text-center text-danger">
+            Регистрация на курс, в данный момент, недоступна
+          </h4>
           <div className="col m-3 p-3">
             <h5>К концу курса вы:</h5>
             <li>РАСШИРИТЕ словарный запас на тему работы и карьеры в АйТи</li>
@@ -35,9 +38,6 @@ const WorkCareer = () => {
           </div>
         </div>
       </div>
-      <h4 className="px-3 text-center text-danger">
-        Регистрация на данный курс, в данный момент, недоступна
-      </h4>
     </div>
   )
 }
