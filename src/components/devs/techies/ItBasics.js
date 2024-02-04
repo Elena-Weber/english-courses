@@ -1,6 +1,6 @@
 import ItBasicsIntro from "./it-basics/ItBasicsIntro";
 // import ItBasicsImages from "./it-basics/ItBasicsImages";
-import ItBasicsPayment from "./it-basics/ItBasicsPayment";
+// import ItBasicsPayment from "./it-basics/ItBasicsPayment";
 
 const ItBasics = () => {
   return (
