@@ -34,12 +34,12 @@ function ItBasicsIntro() {
         <Accordion.Body>
           <ListGroup as="ul" variant="flush" className="text-start">
             <ListGroup.Item as="li">Компоненты компьютера (монитор, материнская плата, процессор, чипсет, ОЗУ, ПЗУ, хранилище, видео и звуковая карты, модем и т.д.) и за что каждый из них отвечает</ListGroup.Item>
-            <ListGroup.Item as="li">Прочее оборудование: клавиатура, мышка, микрофон, колонки, наушники, камера, раутер, принтер/сканер/ксерокс и т.п.</ListGroup.Item>
+            <ListGroup.Item as="li">Прочее оборудование: клавиатура, мышка, микрофон, колонки, наушники, камера, модем, раутер, принтер/сканер/ксерокс, портативные хранилища и т.п.</ListGroup.Item>
             <ListGroup.Item as="li">Кабели и зарядка, серверы и данные, беспроводные технологии</ListGroup.Item>
             <ListGroup.Item as="li">Клавиатура и все (!) клавиши на ней</ListGroup.Item>
             <ListGroup.Item as="li">Операционная система, файлы и приложения, иконки и ярлыки, основные операции на компьютере</ListGroup.Item>
             <ListGroup.Item as="li">Компьютерные проблемы</ListGroup.Item>
-            <ListGroup.Item as="li">Интернет, браузер, вебсайт и действия на нём</ListGroup.Item>
+            <ListGroup.Item as="li">Локальная сеть, интернет, браузер, вебсайт и действия на нём</ListGroup.Item>
             <ListGroup.Item as="li">Email и действия с электронной почтой</ListGroup.Item>
           </ListGroup>
         </Accordion.Body>

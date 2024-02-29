@@ -16,7 +16,7 @@ const ItBasicsPayment = () => {
                 <b>11 уроков</b> про <b>компьютер</b>, его компоненты и работу на нём, каждый из которых включает:<br></br><br></br>
                 <li>Видео уроки с объяснениями (на русском языке)</li>
                 <li>Презентации в PDF (на английском и русском)</li>
-                <li>Аудиозаписи для формирования правильного произношения новых слов</li>
+                <li>Аудиозаписи для развития навыка аудирования и формирования правильного произношения новых слов</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
                 <li>Флэш-карточки для закрепления лексики в приложении Quizlet</li>
                 <li>Файлы с флэш-карточками для распечатывания (для тех, кто любит всё на бумаге - это вместо использования Quizlet)</li>
@@ -37,9 +37,8 @@ const ItBasicsPayment = () => {
                   <h6 className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</h6>
                   <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
-                <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/41001255039281" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
-                  <h6 className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</h6>
+                <Tab eventKey="other" title="Другое">
+                  <h6 className="text-danger mt-4">Для уточнения других способов оплаты, пожалуйста, напишите мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span></h6>
                 </Tab>
               </Tabs>
             </Card.Body>
@@ -55,7 +54,7 @@ const ItBasicsPayment = () => {
               Всё, что включает тариф "COMPUTER BASIC"<br></br>+<br></br><b>3 урока</b> про <b>интернет и email</b><br></br><br></br>Итого: <b>14 уроков</b>, каждый из которых включает:<br></br><br></br>
                 <li>Видеоуроки с объяснениями (на русском языке)</li>
                 <li>Презентации в PDF (на английском и русском)</li>
-                <li>Аудиозаписи для формирования правильного произношения новых слов</li>
+                <li>Аудиозаписи для развития навыка аудирования и формирования правильного произношения новых слов</li>
                 <li>Кроссворды и другие головоломки (in English)</li>
                 <li>Флэш-карточки для закрепления лексики в приложении Quizlet</li>
                 <li>Файлы с флэш-карточками для распечатывания (для тех, кто любит всё на бумаге - это вместо использования Quizlet)</li>
@@ -76,9 +75,8 @@ const ItBasicsPayment = () => {
                   <h6 className="text-danger">Данный способ доступен только тем, кто живёт в США. Пожалуйста, укажите свой <u>имэйл</u> в поле 'Memo', иначе я не узнаю, кому и куда высылать доступ к курсу (либо напишите мне имейл или в личку)</h6>
                   <a href="https://www.zellepay.com/" target="_blank" rel="noopener noreferrer">Как оплатить через Zelle</a>
                 </Tab>
-                <Tab eventKey="yoomoney" title="YooMoney (Yandex)">
-                  <a className="button" href="https://yoomoney.ru/to/41001255039281" role="button" target="_blank" rel="noopener noreferrer">YooMoney (Yandex)</a>
-                  <h6 className="text-danger mt-4">Если вы платите через YooMoney, пожалуйста, скиньте мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span> скрин платежа (и ваш имэйл), иначе я не узнаю, кому и куда выслать доступ к курсу</h6>
+                <Tab eventKey="other" title="Другое">
+                <h6 className="text-danger mt-4">Для уточнения других способов оплаты, пожалуйста, напишите мне в личку или на почту <span className='email'>ElenaAndEnglish@gmail.com</span></h6>
                 </Tab>
               </Tabs>
             </Card.Body>
@@ -91,7 +89,7 @@ const ItBasicsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom по воскресеньям</b> в маленьких группах (до 4 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
+                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom по воскресеньям</b> в мини-группах (по 2 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$300</span></h3>
                   <h3><span className='text-danger'>₽26.400</span></h3>
@@ -101,7 +99,7 @@ const ItBasicsPayment = () => {
                   <h6><b>Созвоны будут проходить:</b></h6>
                   <h6>воскресенье, 11 утра по НЙ<br></br>(7 часов вечера по Москве)<br></br>или<br></br>воскресенье, 6 вечера по НЙ<br></br>(3 часа утра по Москве)</h6>
                   <hr></hr>
-                  <h6>Если любое время вам подходит, напишите мне в личку или на имейл <span className='email'>ElenaAndEnglish@gmail.com</span>, чтобы уточнить наличие мест в этой группе и получить ссылку на оплату</h6>
+                  <h6 className="text-danger">Если любое время вам подходит, напишите мне в личку или на имейл <span className='email'>ElenaAndEnglish@gmail.com</span>, чтобы уточнить наличие мест в этой группе и получить ссылку на оплату</h6>
                 </div>
               </Card.Text>
             </Card.Body>
