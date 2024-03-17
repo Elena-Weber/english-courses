@@ -89,7 +89,7 @@ const ItBasicsPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom по воскресеньям</b> в мини-группах (по 2 человек), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
+                Всё, что включает тариф "COMPUTER PLUS"<br></br>+<br></br>еженедельные 60-минутные <b>созвоны в Zoom по воскресеньям</b> в мини-группах (по 2 человека), на которых мы будем обсуждать изученный материал in English<br></br><br></br>Итого: <b>14 уроков</b><br></br>+<br></br><b>8 созвонов</b> (1 раз в неделю по 60 минут)
                 <div className='mt-3'>
                   <h3><span className='text-danger'>$300</span></h3>
                   <h3><span className='text-danger'>₽26.400</span></h3>

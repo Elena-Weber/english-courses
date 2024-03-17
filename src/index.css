@@ -14,7 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+a, .navi-tabs {
   color: var(--medium);
 }
 
@@ -40,10 +40,6 @@ a {
 .main-heading:hover::before {
   transform-origin: left;
   transform: scaleX(1);
-}
-
-.navi-tabs {
-  color: var(--medium);
 }
 
 .heading {
