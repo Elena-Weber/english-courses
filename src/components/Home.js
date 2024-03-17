@@ -19,7 +19,7 @@ const Home = () => {
               <li><b>10+ лет репетиторства</b></li>
               <li><b>8 лет жизни в США</b> и ежедневного общения с носителями языка (замужем за одним из них)</li>
               <li><b>Сертификат TESOL</b> от Arizona State University (Teaching English to Speakers of Other Languages позволяет обучать людей, для которых английский - неродной язык, в англоговорящих странах)</li>
-              <li>В Instagram я известна благодаря аккаунту с крутейшими уроками по английскому языку <b>@english.witch.elena</b></li>
+              <li>В Instagram я известна благодаря аккаунту с крутейшими уроками по английскому языку <a href='https://www.instagram.com/english.witch.elena'><b>@english.witch.elena</b></a></li>
             </div>
           </div>
         </div>
