@@ -1,5 +1,5 @@
 import ItBasicsIntro from "./it-basics/ItBasicsIntro";
-// import ItBasicsImages from "./it-basics/ItBasicsImages";
+import ItBasicsImages from "./it-basics/ItBasicsImages";
 // import ItBasicsPayment from "./it-basics/ItBasicsPayment";
 
 const ItBasics = () => {
@@ -32,7 +32,7 @@ const ItBasics = () => {
             </div>
             {/* before LARGE it's 11 columns, after LARGE it's 5 columns out of 12 */}
             <div className="col-11 col-lg-5 m-3 p-3">
-              {/* <ItBasicsImages/> */}
+              <ItBasicsImages/>
             </div>
           </div>
           <div>
