@@ -85,7 +85,7 @@ a, .navi-tabs {
   font-weight: bold;
 }
 
-.email {
+.email, .dark-text {
   color: var(--dark);
 }
 
