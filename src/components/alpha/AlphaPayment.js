@@ -30,7 +30,7 @@ const AlphaPayment = () => {
               <Tabs defaultActiveKey="card" id="elementary-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
                   <a className="button" href="https://buy.stripe.com/3csdS3anO8iKcBqeVd" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
-                  <h6 className="dark-text m-3">После оплаты (в течение суток) вам на имейл придёт письмо с ящика <span className='text-danger'>ElenaAndEnglish@gmail.com</span> с уточнением, какая 1 тема (из 6) вам интересна</h6>
+                  <h6 className="dark-text m-3">Доступ к Телеграм-клубу будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='text-danger'>ElenaAndEnglish@gmail.com</h6>
@@ -71,7 +71,7 @@ const AlphaPayment = () => {
               <Tabs defaultActiveKey="card" id="elementary-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
                   <a className="button" href="https://buy.stripe.com/14keW767yaqS58Y28s" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
-                  <h6 className="dark-text m-3">После оплаты (в течение суток) вам на имейл придёт письмо с ящика <span className='text-danger'>ElenaAndEnglish@gmail.com</span> с уточнением, какие 3 темы (из 6) вам интересны</h6>
+                  <h6 className="dark-text m-3">Доступ к Телеграм-клубу будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='text-danger'>ElenaAndEnglish@gmail.com</h6>
