@@ -1,5 +1,5 @@
-// import AlphaImages from "./alpha/AlphaImages";
 import AlphaIntro from "./alpha/AlphaIntro";
+import AlphaImages from "./alpha/AlphaImages";
 import AlphaPayment from "./alpha/AlphaPayment";
 
 const Alpha = () => {
@@ -19,7 +19,7 @@ const Alpha = () => {
               Регистрация в клуб, в данный момент, недоступна
             </h4> */}
             <div className="col m-3 p-3">
-              <h5>Что вас ждёт в алфавитном клубе:</h5>
+              <h3 className="accent">Что вас ждёт в алфавитном клубе:</h3>
               <li>Как минимум, 26 новых слов каждый месяц - от буквы A до буквы Z (слов может быть больше,так как иногда я даю дополнительные слова в контексте)</li>
               <li>Лёгкая, интересная учёба в Телеграм в компании единомышлеников - вы будете смотреть, слушать, читать, писать и говорить, и на усвоение урока у вас будет уходить не более 10 минут в день</li>
               <li>В каждом уроке вас будут ждать краткие видео обьяснения с правильным произношением, наглядные примеры и упражнения для практики</li>
@@ -27,18 +27,18 @@ const Alpha = () => {
               <li>Несколько раз в месяц вы будете проходить мини-тесты на повторение, чтобы изученные ранее слова не забывались</li>
               <li>В конце месяца вы получите дополнительные задания на повторение всех слов в форме кроссвордов, поиска слов и т.д.</li>
             </div>
+            <div>
+              <AlphaPayment />
+            </div>
             <div className="row justify-content-evenly">
+              {/* before LARGE it's 11 columns, after LARGE it's 5 columns out of 12 */}
+              <div className="col-11 col-lg-5 m-3 p-3">
+                <AlphaImages />
+              </div>
               {/* before LARGE it's 11 columns, after LARGE it's 6 columns out of 12 */}
               <div className="col-11 col-lg-6 m-3 p-3">
                 <AlphaIntro />
               </div>
-              {/* before LARGE it's 11 columns, after LARGE it's 5 columns out of 12 */}
-              <div className="col-11 col-lg-5 m-3 p-3">
-                {/* <AlphaImages /> */}
-              </div>
-            </div>
-            <div>
-              <AlphaPayment />
             </div>
           </div>
         </div>

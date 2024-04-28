@@ -94,6 +94,12 @@ a, .navi-tabs {
   font-weight: bold;
 }
 
+.alpha-carousel .carousel-inner {
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+
 .animation {
   text-transform: uppercase;
 	font-weight: 700;
