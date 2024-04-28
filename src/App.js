@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Elementary from './components/Elementary';
 import PreIntermediate from './components/PreIntermediate';
 import Devs from './components/Devs';
+import Alpha from "./components/Alpha";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
@@ -22,6 +23,9 @@ export default function App() {
       </Tab>
       <Tab eventKey="techies" title="Techies">
         <Devs/>
+      </Tab>
+      <Tab eventKey="alpha" title="Alpha-club">
+        <Alpha/>
       </Tab>
     </Tabs>
     </>
