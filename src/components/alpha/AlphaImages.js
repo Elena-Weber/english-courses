@@ -20,9 +20,12 @@ import IMG_8104 from '../../images/alpha/IMG_8104.jpg';
 import IMG_8210 from '../../images/alpha/IMG_8210.jpg';
 import IMG_8246 from '../../images/alpha/IMG_8246.jpg';
 import IMG_8255 from '../../images/alpha/IMG_8255.jpg';
+import IMG_8258 from '../../images/alpha/IMG_8258.jpg';
+import IMG_8260 from '../../images/alpha/IMG_8260.jpg';
+import IMG_8267 from '../../images/alpha/IMG_8267.jpg';
 
 function AlphaImages() {
-  const reviews = [IMG_8057, IMG_7955, IMG_7894, IMG_7960, IMG_7961, IMG_7765, IMG_8246, IMG_7768, IMG_7808, IMG_7957, IMG_8255, IMG_8026, IMG_8047, IMG_8048, IMG_8210, IMG_8104, IMG_7769, IMG_7771, IMG_7908, IMG_8081, IMG_8082];
+  const reviews = [IMG_8057, IMG_7955, IMG_7960, IMG_7961, IMG_8260, IMG_7765, IMG_7894, IMG_8246, IMG_8267, IMG_7768, IMG_8258, IMG_7808, IMG_7957, IMG_8255, IMG_8026, IMG_8047, IMG_8048, IMG_8210, IMG_8104, IMG_7769, IMG_7771, IMG_7908, IMG_8081, IMG_8082];
 
   return (
     <div className='text-center'>
