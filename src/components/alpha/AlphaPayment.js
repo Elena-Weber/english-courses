@@ -112,7 +112,7 @@ const AlphaPayment = () => {
               </Card.Text>
               <Tabs defaultActiveKey="card" id="elementary-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="https://buy.stripe.com/cN215hanO6aCfNCcN4" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
+                  <a className="button" href="https://buy.stripe.com/28odS3eE4fLc44U14p" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
                   <h6 className="dark-text m-3">Доступ к Телеграм-клубу будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
