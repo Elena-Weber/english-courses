@@ -30,8 +30,8 @@ const AlphaPayment = () => {
               </Card.Text>
               <Tabs defaultActiveKey="card" id="elementary-payment-tab-1" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="https://buy.stripe.com/3csdS3anO8iKcBqeVd" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
-                  <h6 className="dark-text m-3">Доступ к Телеграм-клубу будет выслан на <u>имейл</u>, указанный при оплате</h6>
+                  <a className="button" href="https://buy.stripe.com/28og0beE47eGgRG28u" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
+                  <h6 className="dark-text m-3">Доступ к Алфа-клубу в Телеграм будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='text-danger'>ElenaAndEnglish@gmail.com</h6>
@@ -71,8 +71,8 @@ const AlphaPayment = () => {
               </Card.Text>
               <Tabs defaultActiveKey="card" id="elementary-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
-                  <a className="button" href="https://buy.stripe.com/14keW767yaqS58Y28s" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
-                  <h6 className="dark-text m-3">Доступ к Телеграм-клубу будет выслан на <u>имейл</u>, указанный при оплате</h6>
+                  <a className="button" href="https://buy.stripe.com/fZe7tF7bCcz00SI4gD" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
+                  <h6 className="dark-text m-3">Доступ к Алфа-клубу в Телеграм будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='text-danger'>ElenaAndEnglish@gmail.com</h6>
@@ -113,7 +113,7 @@ const AlphaPayment = () => {
               <Tabs defaultActiveKey="card" id="elementary-payment-tab-2" className="my-4" justify>
                 <Tab eventKey="card" title="Картой">
                   <a className="button" href="https://buy.stripe.com/28odS3eE4fLc44U14p" role="button" target="_blank" rel="noopener noreferrer">Оплата картой</a>
-                  <h6 className="dark-text m-3">Доступ к Телеграм-клубу будет выслан на <u>имейл</u>, указанный при оплате</h6>
+                  <h6 className="dark-text m-3">Доступ к Алфа-клубу в Телеграм будет выслан на <u>имейл</u>, указанный при оплате</h6>
                 </Tab>
                 <Tab eventKey="zelle" title="Zelle">
                   <h6 className='text-danger'>ElenaAndEnglish@gmail.com</h6>
