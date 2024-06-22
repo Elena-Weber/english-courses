@@ -1,6 +1,6 @@
 import ItBasicsIntro from "./it-basics/ItBasicsIntro";
 import ItBasicsImages from "./it-basics/ItBasicsImages";
-// import ItBasicsPayment from "./it-basics/ItBasicsPayment";
+import ItBasicsPayment from "./it-basics/ItBasicsPayment";
 
 const ItBasics = () => {
   return (
@@ -12,9 +12,9 @@ const ItBasics = () => {
       </h4>
       <div className="container">
         <div className="row">
-          <h4 className="px-3 text-center text-danger">
+          {/* <h4 className="px-3 text-center text-danger">
             Регистрация на курс, в данный момент, недоступна
-          </h4>
+          </h4> */}
           <div className="col m-3 p-3">
             <h5>К концу курса вы:</h5>
             <li>ПОЙМЁТЕ, как работает компьютер, интернет и email, и из чего они состоят</li>
@@ -36,7 +36,7 @@ const ItBasics = () => {
             </div>
           </div>
           <div>
-            {/* <ItBasicsPayment/> */}
+            <ItBasicsPayment/>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const ElementaryPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                17 уроков, каждый из которых включает:
+                17 модулей, каждый из которых включает:
                 <li>ВИДЕО объяснения (на русском)</li>
                 <li>ПРЕЗЕНТАЦИИ (in English с переводом)</li>
                 <li>АУДИО для развития навыка аудирования (in English)</li>
@@ -48,7 +48,7 @@ const ElementaryPayment = () => {
             <Card.Body>
               <Card.Title className="subsubheading">Что входит в курс:</Card.Title>
               <Card.Text>
-                17 уроков, каждый из которых включает:
+                17 модулей, каждый из которых включает:
                 <li>ВИДЕО объяснения (на русском)</li>
                 <li>ПРЕЗЕНТАЦИИ (in English с переводом)</li>
                 <li>АУДИО для развития навыка аудирования (in English)</li>
