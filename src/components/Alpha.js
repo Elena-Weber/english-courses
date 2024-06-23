@@ -29,12 +29,12 @@ const Alpha = () => {
             </div>
             <div className="row mx-3 p-3">
               <h3 className="accent">Темы клуба на ближайшие 6 месяцев:</h3>
-              <li>Май 2024 - природа и окружение <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
-              <li>Июнь 2024 - медицина и здоровье <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
-              <li>Июль 2024 - товары и шоппинг <span className="text-danger fw-bold">(начало занятий - 3 июля)</span></li>
-              <li>Август 2024 - продукты и питание</li>
-              <li>Сентябрь 2024 - путешествия и мир</li>
-              <li>Октябрь 2024 - сленг и идиомы</li>
+              <li><span className='fw-bold'>Май 2024</span> - природа и окружение <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
+              <li><span className='fw-bold'>Июнь 2024</span> - медицина и здоровье <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
+              <li><span className='fw-bold'>Июль 2024</span> - товары и шоппинг <span className="text-danger fw-bold">(начало занятий - 3 июля)</span></li>
+              <li><span className='fw-bold'>Август 2024</span> - продукты и питание</li>
+              <li><span className='fw-bold'>Сентябрь 2024</span> - путешествия и мир</li>
+              <li><span className='fw-bold'>Октябрь 2024</span> - сленг и идиомы</li>
             </div>
             <div>
               <AlphaPayment />
