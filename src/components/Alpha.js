@@ -8,9 +8,9 @@ const Alpha = () => {
         <h2 className="heading px-3 text-center">Alpha Club ↔️ Алфавитный клуб</h2>
         <h3 className="subheading text-center">Уровень: A1 (Elementary) и выше</h3>
         <h4 className="subsubheading px-3 text-center">
-          Если вы хотите расширить словарный запас по 1-2 слова в день,<br />
+          Если вы хотите расширить словарный запас по паре-тройке слов в день,<br />
           и чтобы учёба проходила легко, интересно и ненапряжно, но<br />
-          у вас нет времени, желания, настроения, мотивации или всего вместе...<br />
+          у вас нет времени, желания, настроения, мотивации (или всего вместе),<br />
           то мой новый проект Alpha Club - как раз для вас!
         </h4>
         <div className="container">
@@ -28,11 +28,11 @@ const Alpha = () => {
               <li>В конце месяца вы получите <span className="fw-bold">дополнительные задания</span> на повторение всех слов в форме кроссвордов, поиска слов и т.д.</li>
             </div>
             <div className="row mx-3 p-3">
-              <h3 className="accent">Темы клуба на ближайшие 6 месяцев:</h3>
+              <h3 className="accent">Темы клуба на 6 месяцев:</h3>
               <li><span className='fw-bold'>Май 2024</span> - природа и окружение <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
               <li><span className='fw-bold'>Июнь 2024</span> - медицина и здоровье <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
-              <li><span className='fw-bold'>Июль 2024</span> - товары и шоппинг <span className="text-danger fw-bold">(начало занятий - 3 июля)</span></li>
-              <li><span className='fw-bold'>Август 2024</span> - продукты и питание</li>
+              <li><span className='fw-bold'>Июль 2024</span> - товары и шоппинг <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
+              <li><span className='fw-bold'>Август 2024</span> - продукты и питание <span className="text-danger fw-bold">(начало занятий - 4 августа)</span></li>
               <li><span className='fw-bold'>Сентябрь 2024</span> - путешествия и мир</li>
               <li><span className='fw-bold'>Октябрь 2024</span> - сленг и идиомы</li>
             </div>
