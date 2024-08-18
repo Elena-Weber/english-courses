@@ -32,8 +32,8 @@ const Alpha = () => {
               <li><span className='fw-bold'>Май 2024</span> - природа и окружение <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
               <li><span className='fw-bold'>Июнь 2024</span> - медицина и здоровье <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
               <li><span className='fw-bold'>Июль 2024</span> - товары и шоппинг <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
-              <li><span className='fw-bold'>Август 2024</span> - продукты и питание <span className="text-danger fw-bold">(начало занятий - 4 августа)</span></li>
-              <li><span className='fw-bold'>Сентябрь 2024</span> - путешествия и мир</li>
+              <li><span className='fw-bold'>Август 2024</span> - продукты и питание <span className="text-danger">(получите доступ сразу ко всем пройденным словам и заданиям)</span></li>
+              <li><span className='fw-bold'>Сентябрь 2024</span> - путешествия и мир <span className="text-danger fw-bold">(начало занятий - 4 сентября)</span></li>
               <li><span className='fw-bold'>Октябрь 2024</span> - сленг и идиомы</li>
             </div>
             <div>
