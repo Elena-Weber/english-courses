@@ -9,7 +9,7 @@ const AlphaPayment = () => {
       <div className="d-flex justify-content-around mb-5 mt-3 payment-div">
         <div className="payment-card">
           <Card className="text-center h-100">
-            <Card.Header className="tariff">Доступ на 1 месяц</Card.Header>
+            <Card.Header className="tariff">1 любой месяц</Card.Header>
             <Card.Body>
               <Card.Title className="subsubheading">Что вас ждёт в клубе:</Card.Title>
               <Card.Text>
@@ -21,6 +21,8 @@ const AlphaPayment = () => {
                 <li>ИГРЫ для повторения изученных слов</li>
                 <li>ОБЩЕНИЕ со мной и одногруппниками</li>
                 <li>В КОНЦЕ МЕСЯЦА: кроссворды, поиск слов и другие задания по пройденным за месяц словам</li>
+                <li>ПРОВЕРКА мной всех ваших аудио</li>
+                <li>ДОСТУП к клубам - навсегда</li>
                 <span className='accent'>--------------------</span>
                 <span className='d-flex flex-column fw-bold fs-4'>
                   <span className='navi-tabs'>Стоимость:</span>
@@ -48,20 +50,20 @@ const AlphaPayment = () => {
         </div>
         <div className="payment-card">
           <Card className="text-center h-100">
-            <Card.Header className="tariff">Доступ на 3 месяца</Card.Header>
+            <Card.Header className="tariff">3 любых месяца</Card.Header>
             <Card.Body>
               <Card.Title className="subsubheading">Что вас ждёт в клубе:</Card.Title>
               <Card.Text>
-                Всё то же самое, что в доступе на 1 месяц, но помноженное на 3 и <span className='text-danger fw-bold'>со скидкой $10</span>
-                <br></br>
-                <li className='mb-3'>Вы сами можете выбрать, какие 3 темы вам интересны</li>
-                <span className='accent'>Темы клуба на 6 месяцев:</span>
-                <li>Май - природа и окружение</li>
-                <li>Июнь - медицина и здоровье</li>
-                <li>Июль - товары и шоппинг</li>
-                <li>Август - продукты и питание</li>
-                <li>Сентябрь - путешествия и мир</li>
-                <li>Октябрь - сленг и идиомы</li>
+                Всё то же самое, что в 1-ом любом месяце, но помноженное на 3 и <span className='text-danger fw-bold'>со скидкой $10</span>
+                <br></br><br></br>
+                Вы сами выбираете, какие темы вам нужны<br></br><br></br>
+                <span className='accent'>Клубы на выбор:</span>
+                <li>природа и окружение</li>
+                <li>медицина и здоровье</li>
+                <li>товары и шоппинг</li>
+                <li>продукты и питание</li>
+                <li>путешествия и мир</li>
+                <li>сленг и идиомы</li>
                 <span className='accent'>--------------------</span>
                   <span className='d-flex flex-column fw-bold fs-4'>
                     <span className='navi-tabs'>Стоимость:</span>
@@ -89,20 +91,20 @@ const AlphaPayment = () => {
         </div>
         <div className="payment-card">
           <Card className="text-center h-100">
-            <Card.Header className="tariff">Доступ на 6 месяцев</Card.Header>
+            <Card.Header className="tariff">все 6 месяцев</Card.Header>
             <Card.Body>
               <Card.Title className="subsubheading">Что вас ждёт в клубе:</Card.Title>
               <Card.Text>
-                Всё то же самое, что в доступе на 1 месяц, но помноженное на 6 и <span className='text-danger fw-bold'>со скидкой $20</span>
+                Всё то же самое, что в 1-ом любом месяце, но помноженное на 6 и <span className='text-danger fw-bold'>со скидкой $20</span>
                 <br></br>+
-                <li className='mb-3'>Финальные задания за все 6 месяцев по истечении полугода</li>
-                <span className='accent'>Темы клуба на 6 месяцев:</span>
-                <li>Май - природа и окружение</li>
-                <li>Июнь - медицина и здоровье</li>
-                <li>Июль - товары и шоппинг</li>
-                <li>Август - продукты и питание</li>
-                <li>Сентябрь - путешествия и мир</li>
-                <li>Октябрь - сленг и идиомы</li>
+                <li className='mb-3'>Финальные задания за все 6 клубов</li>
+                <span className='accent'>Темы всех клубов:</span>
+                <li>природа и окружение</li>
+                <li>медицина и здоровье</li>
+                <li>товары и шоппинг</li>
+                <li>продукты и питание</li>
+                <li>путешествия и мир</li>
+                <li>сленг и идиомы</li>
                 <span className='accent'>--------------------</span>
                 <span className='d-flex flex-column fw-bold fs-4'>
                   <span className='navi-tabs'>Стоимость:</span>
