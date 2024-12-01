@@ -12,7 +12,7 @@ export default function App() {
     <>
     <Heading/>
     <Tabs
-      defaultActiveKey="techies"
+      defaultActiveKey="home"
       id="justify-tab"
       className="mb-3 mx-3 fs-5 navi-tabs"
       justify
