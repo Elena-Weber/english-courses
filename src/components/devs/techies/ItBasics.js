@@ -1,6 +1,6 @@
 import ItBasicsIntro from "./it-basics/ItBasicsIntro";
 import ItBasicsImages from "./it-basics/ItBasicsImages";
-// import ItBasicsPayment from "./it-basics/ItBasicsPayment";
+import ItBasicsPayment from "./it-basics/ItBasicsPayment";
 
 const ItBasics = () => {
   return (
@@ -12,9 +12,9 @@ const ItBasics = () => {
       </h4>
       <div className="container">
         <div className="row">
-          <h4 className="px-3 text-center text-danger">
+          {/* <h4 className="px-3 text-center text-danger">
             Регистрация на курс, в данный момент, недоступна
-          </h4>
+          </h4> */}
           {/* <h4 className="px-3 text-center text-danger">
             Начало занятий - 8 июля 2024
           </h4> */}
@@ -38,9 +38,9 @@ const ItBasics = () => {
               <ItBasicsImages/>
             </div>
           </div>
-          {/* <div>
+          <div>
             <ItBasicsPayment/>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
